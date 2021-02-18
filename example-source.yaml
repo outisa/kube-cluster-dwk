@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: todo-app-repo
+  name: example-repo
   namespace: flux-system
 spec:
   interval: 10m
-  url: https://github.com/outisa/kubernetes-todo-app
+  url: https://github.com/kubernetes-hy/material-example
   ref:
     branch: master
